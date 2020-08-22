@@ -1,0 +1,26 @@
+{
+  "name": "GraphQL",
+  "version": "1.0.0",
+  "description": "Server for QraphQL",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "express-graphql": "^2.4.3",
+    "graphql": "^3.5.1",
+    "dotenv": "^8.2.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.0",
+    "path": "^0.12.7",
+    "lodash": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
